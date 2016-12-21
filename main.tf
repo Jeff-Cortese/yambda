@@ -9,7 +9,7 @@ provider "aws" {
 }
 
 module "messages-service" {
-  source = "./services/messages"
+  source = "./services/message-service"
 
   region = "${var.region}"
 }
