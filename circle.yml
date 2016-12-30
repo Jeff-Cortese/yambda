@@ -7,5 +7,4 @@ deployment:
     branch: serverless-dot-com
     commands:
       - npm install
-      - cd services/myService
-      - npm run serverless -- deploy
+      - cd services/myService && npm run serverless -- deploy
