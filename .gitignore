@@ -1,3 +1,5 @@
 .idea/
 .terraform/
 target/
+*.iml
+**/.serverless/
