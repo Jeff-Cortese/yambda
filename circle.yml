@@ -6,5 +6,5 @@ deployment:
   aws:
     branch: serverless-dot-com
     commands:
-      - npm install
-      - cd services/myService && npm run serverless -- deploy
+      - npm install serverless -g
+      - (cd services/myService && serverless deploy)
