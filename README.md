@@ -13,7 +13,7 @@ $ npm install serverless -g
    ````
   - [maven](https://maven.apache.org/download.cgi)
   
-##### Compile the [lambda function](services/myService/src/main/hello/Handler.java)
+##### Compile the [lambda function](services/myService/src/main/java/hello/Handler.java)
 ````bash
 $ mvn clean install
 ````
