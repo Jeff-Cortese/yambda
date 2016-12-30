@@ -8,9 +8,9 @@ AWS Lambda and API Gateway experimentation
 ##### Install stuff
   - [nodejs](https://nodejs.org)
   - serverless
-   ````bash
+````bash
 $ npm install serverless -g
-   ````
+````
   - [maven](https://maven.apache.org/download.cgi)
   
 ##### Compile the [lambda function](services/myService/src/main/java/hello/Handler.java)
