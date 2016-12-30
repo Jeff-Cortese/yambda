@@ -1,0 +1,10 @@
+dependencies:
+  override:
+    - mvn clean install
+
+deployment:
+  aws:
+    branch: serverless-dot-com
+    commands:
+      - npm install
+      - npm run serverless -- deploy
